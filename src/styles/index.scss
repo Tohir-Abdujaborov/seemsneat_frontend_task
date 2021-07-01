@@ -1,0 +1,67 @@
+@import url("https://fonts.googleapis.com/css2?family=Rubik:wght@500&display=swap");
+
+$sharedBorderRadius: 3px;
+$fontFamily: "Rubik", sans-serif;
+
+body {
+  background-image: radial-gradient(
+    circle,
+    #4f2e53,
+    #48284c,
+    #422145,
+    #3b1b3e,
+    #351537
+  );
+}
+.form_container {
+  background: #fff;
+  border-radius: $sharedBorderRadius;
+  width: 100%;
+}
+.vertical-center {
+  height: 100vh;
+}
+.header {
+  padding: 15px;
+  background-color: #724d75;
+  border-top-left-radius: $sharedBorderRadius;
+  border-top-right-radius: $sharedBorderRadius;
+  span {
+    font-family: $fontFamily;
+    color: #fff;
+    font-size: 16px;
+  }
+}
+.f_body {
+  padding: 15px;
+  button {
+    border: 0;
+    background-color: #744e77;
+    padding: 10px 30px;
+    border-radius: $sharedBorderRadius;
+    color: #fff;
+  }
+  button:hover {
+    opacity: 0.8;
+  }
+}
+.input-container {
+  display: flex;
+  width: 100%;
+  padding-right: 15px;
+  background: #f0eef0;
+  border-radius: $sharedBorderRadius;
+  margin-bottom: 15px;
+  input {
+    width: 100%;
+    padding: 15px;
+    border: 0;
+    background: #f0eef0;
+    font-family: $fontFamily;
+    color: #757575;
+    font-size: 14px;
+  }
+}
+input:focus {
+  outline: none;
+}
